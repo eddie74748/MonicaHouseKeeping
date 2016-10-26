@@ -16,7 +16,7 @@ function detect_browser(req) {
         req['iphone'] = 1;
     }
     else if (user_agent.indexOf('iPhone') >= 0) {
-        reqT['iphone'] = 1;
+        req['iphone'] = 1;
     }
     else if (user_agent.indexOf('Android') >= 0) {
         req['Android'] = 1;
